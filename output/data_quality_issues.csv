@@ -1,0 +1,13 @@
+sku,issue_type,source,detail
+SKU-035,whitespace_in_name,snapshot_1,row 36: name='Cable Ties 100pk '
+SKU-052,whitespace_in_name,snapshot_1,row 53: name=' Compressed Air Can'
+SKU-002,whitespace_in_name,snapshot_2,row 3: name=' Widget B'
+SKU-005,malformed_sku,snapshot_2,row 6: raw='SKU005' normalised to 'SKU-005'
+SKU-008,malformed_sku,snapshot_2,row 9: raw='sku-008' normalised to 'SKU-008'
+SKU-010,whitespace_in_name,snapshot_2,row 11: name='Mounting Bracket Large '
+SKU-018,malformed_sku,snapshot_2,row 19: raw='SKU018' normalised to 'SKU-018'
+SKU-021,whitespace_in_name,snapshot_2,row 22: name=' HDMI Cable 3ft '
+SKU-035,date_format,snapshot_2,row 34: last_counted='01/15/2024'
+SKU-045,negative_quantity,snapshot_2,row 54: qty=-5
+SKU-045,duplicate_sku,snapshot_2,row 54: duplicate of earlier row (prev: name='Multimeter Professional' qty=23; this: name='Multimeter Pro' qty=-5)
+SKU-045,name_changed_across_snapshots,reconcile,'Multimeter Pro' -> 'Multimeter Professional'
